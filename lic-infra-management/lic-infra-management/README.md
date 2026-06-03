@@ -1,4 +1,4 @@
-# 🏦 LIC Linux Infrastructure Management
+# 🏦  Linux Infrastructure Management
 ### Infosys CIS Unit — System Engineer Project
 
 ![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -6,13 +6,13 @@
 ![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
 ![ITIL](https://img.shields.io/badge/ITIL-Framework-blue?style=for-the-badge)
 
-> **Real-world project** simulating Linux infrastructure management for LIC (Life Insurance Corporation of India) at Infosys CIS Unit — covering server monitoring, log analysis, incident management, and system hardening.
+> **Real-world project** simulating Linux infrastructure management for Infra Management covering server monitoring, log analysis, incident management, and system hardening.
 
 ---
 
 ## 📋 Project Overview
 
-As a **System Engineer** in the **CIS Unit at Infosys**, I manage the Linux (RHEL) infrastructure for the **LIC Infra Team**. This project contains the automation scripts I use for:
+As a **System Engineer** in the **CIS UNIT**, I manage the Linux (RHEL) infrastructure for the **Infra Team**. This project contains the automation scripts I use for:
 
 - 📊 **Server Health Monitoring** — CPU, Memory, Disk, Services
 - 🔍 **Log Analysis** — Error detection, failed logins, suspicious activity
@@ -24,7 +24,7 @@ As a **System Engineer** in the **CIS Unit at Infosys**, I manage the Linux (RHE
 ## 📁 Project Structure
 
 ```
-lic-infra-management/
+infra-management/
 │
 ├── scripts/
 │   ├── server_health_monitor.sh   # Monitor CPU, Memory, Disk, Services
@@ -54,12 +54,6 @@ lic-infra-management/
 - Linux / RHEL / CentOS / Ubuntu
 - Bash shell
 - Root or sudo access (for full functionality)
-
-### Setup
-```bash
-# Clone the repository
-git clone https://github.com/SantoshKumarGiri/lic-infra-management.git
-cd lic-infra-management
 
 # Give execute permissions to all scripts
 chmod +x scripts/*.sh
@@ -156,7 +150,7 @@ Interactive incident tracker following ITIL framework for incident management.
 
 **Sample Incident Log:**
 ```
-INC0001 | 2025-01-15 | P1 | LIC Server CPU Spike    | Resolved
+INC0001 | 2025-01-15 | P1 | Server CPU Spike    | Resolved
 INC0002 | 2025-01-16 | P2 | Disk Full on /var        | Resolved
 INC0003 | 2025-01-17 | P1 | SSH Service Down         | Resolved
 INC0004 | 2025-01-18 | P2 | Multiple Failed Logins   | Open
@@ -211,8 +205,6 @@ sudo ./scripts/system_hardening.sh
 
 ## 📈 Real-World Application
 
-These scripts simulate the actual work done as a **System Engineer at Infosys CIS Unit** for **LIC (Life Insurance Corporation of India)**:
-
 - 🖥️ Monitoring RHEL servers to maintain **99%+ uptime**
 - 📋 Managing incidents following **ITIL** principles
 - 🔒 Applying **CIS Benchmark** security hardening
@@ -224,7 +216,7 @@ These scripts simulate the actual work done as a **System Engineer at Infosys CI
 
 **Santosh Kumar Giri**
 System Engineer → DevOps Engineer (In Transition)
-Infosys Limited — CIS Unit | LIC Infra Team
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/santosh-kumar-giri-955609142)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/SantoshKumarGiri)
